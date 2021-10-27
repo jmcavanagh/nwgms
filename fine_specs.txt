@@ -1,0 +1,27 @@
+title "Re2B2_d"
+
+charge -1
+
+basis
+* library lanl2dz_ecp
+end
+
+ecp
+ Re library lanl2dz_ecp
+end
+ 
+
+driver
+maxiter 5000
+trust 0.3
+end
+
+set quickguess t
+
+dft
+xc pbe0
+iterations 5000
+mult 2
+end
+
+task dft optimize
