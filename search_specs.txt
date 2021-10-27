@@ -13,7 +13,8 @@ end
 
 dft
  xc pbe0
-iterations 5000
+ iterations 5000
+ grid nodisk
 end
 
 task dft optimize
