@@ -5,7 +5,7 @@ For use with Brown's CCV.
 
 First, makee sure necessary packages are installed. Modify your ~/.bash_profile to include
 
-module load nwchem/7.0.2_mvapich2-2.3.5_intel_2020.2_slurm20 \\
+module load nwchem/7.0.2_mvapich2-2.3.5_intel_2020.2_slurm20 \n
 module load mpi/mvapich2-2.3.5_intel_2020.2_slurm20 intel/2020.2 cuda/11.1.1 gcc/10.2 \\
 nwchem/6.8-openmpi \\
 module load python/3.7.4 \\
