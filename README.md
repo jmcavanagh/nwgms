@@ -14,5 +14,4 @@ Then, install numpy with ```pip install numpy```
 
 Then, download the github repo. Go into the directory, for example scratch, where you want to perrform the global minimum search. Then enter the command ```git clone https://github.com/jmcavanagh/nwgms```
 
-Then, modify search_specs.txt. To start a global minimum search, enter the command sbatch coordinator.sh <numcalcs> <numhops> <multiplicity>. You can search several multiplicities at once.  
-  ```sbatch coordinator.sh <numcalcs> <numhops> <multiplicity>```  
+Then, modify search_specs.txt. To start a global minimum search, enter the command ```sbatch coordinator.sh <numcalcs> <numhops> <multiplicity>```. You can search several multiplicities at once by starting searhces for many multiplicities.
